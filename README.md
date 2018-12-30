@@ -3,8 +3,8 @@ This repo is for the Udacity Full-stack Nanodegree project Logs Analysis. It is 
 
 
 ## Set up
-1. Install VirtualBox https://www.vagrantup.com/
-2. Install Vagrant https://www.virtualbox.org/wiki/Downloads
+1. Install VirtualBox https://www.virtualbox.org/wiki/Downloads
+2. Install Vagrant https://www.vagrantup.com/
 3. Clone repo https://github.com/udacity/fullstack-nanodegree-vm
 4. cd into vagrant folder and clone this repo
 5. Unzip newsdata.zip. Its contents contain newdata.sql.
