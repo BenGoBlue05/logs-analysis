@@ -12,3 +12,19 @@ This repo is for the Udacity Full-stack Nanodegree project Logs Analysis. It is 
 7. `cd logs-analysis `
 7. Type command `psql -d news -f newsdata.sql` into terminal to load the data.
 8. Run `python newsdata.py`
+
+## Design
+The database consisted of three tables - authors, articles, and log. Here are the questions for the project and the approach I used to solve them:
+
+#### 1. What are the most popular three articles of all time? 
+Query the articles that have been viewed the most from the log table and find the article titles from the articles table.
+
+#### 2. Who are the most popular article authors of all time?
+Query the authors where the sum of the views for each article they've written are highest. 
+
+#### 3. On which days did more than 1% of requests lead to errors? 
+Query logs table to find days where the ratio of request statuses that are 400 or above to total statuses are greater than 1%.
+
+
+
+
